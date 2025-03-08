@@ -14,7 +14,6 @@ public class RunController {
 
     private final RunRepository runRepository;
 
-    @Autowired
     public RunController(RunRepository runRepository) {
         this.runRepository = runRepository;
     }
